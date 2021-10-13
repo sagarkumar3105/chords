@@ -76,24 +76,21 @@ To get a local copy up and running follow these simple steps.
 
 **You should have Python and FFmpeg installed in your system**
 
-- Download Python3 from [here](https://www.python.org/downloads/)
 - Download FFmpeg from [here](https://www.ffmpeg.org/)
 
 <img align="left" src="https://github.com/Yoda-Canada/chords/blob/issue-32/icon/note.png" width="30px" height="30px" />
 
 ### Installation
 
-1. Fork the project first
+1. Create a folder on your local machine
+   
+   ```C:/.../chords_full```
 
-2. Clone the forked repo
+2. Clone this repository inside `chords_full` folder
    ```sh
-   git clone https://github.com/your_name/chords.git
+   git clone https://github.com/amanjha8100/chords
    ```
-3. In the project directory, install the packages using
-
-   ```sh
-   pip install -r requirements.txt
-   ```
+3. Execute installer.bat by double clicking it and wait for the Script to set up things.
 
 4. Create a Bot from the Discord Developer Portal and copy the Bot token. Create a `.env` file and paste the Token.
 
